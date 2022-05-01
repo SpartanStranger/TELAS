@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta charset="utf-8">
+<center>
+<body>
+<body background= "Gaming_5000x3125.jpg">
+<form method="get" action= "TELA 2"> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1>
+BIG
+<h1>
+<br>
+<br>
+Nome:<input type= "text" name="v"required="required"/>
+<br>
+</br>
+Email:<input type= "email" name="v" required="required"/>
+<br>
+</br>
+Senha:<input type= "password" name="v" required="required"/>
+<br>
+</br>
+<button id="enviar">Ok</button>
+</form>
+<center>
+<head>
+<body>
+<html>

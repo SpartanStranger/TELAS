@@ -1,0 +1,9 @@
+<html>
+<center>
+<text> BEM VINDO AO APP<text>
+<style>body{
+background-image:baixados.jpg;
+}
+<style>
+body {background-image: url(baixados.jpg);}
+</html>

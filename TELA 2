@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+<h1>DEFINA UMA FOTO DE PERFIL<h1>
+	<head>
+	<body>
+		<form method="POST" action="" enctype="multipart/form-data">
+			<input type="file" name="imagem" id="imagem" onchange="previewImagem()"><br><br>
+			<img style="width: 150px; height: 150px;"><br><br>
+			
+		</form>		
+		<form method="get" action= "TELA 3">
+		<button id="enviar">PRONTO</button>
+		</form>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script>
+			function previewImagem(){
+				var imagem = document.querySelector('input[name=imagem]').files[0];
+				var preview = document.querySelector('img');
+				
+				var reader = new FileReader();
+				
+				reader.onloadend = function () {
+					preview.src = reader.result;
+				}
+				
+				if(imagem){
+					reader.readAsDataURL(imagem);
+				}else{
+					preview.src = "";
+				}
+			}
+		</script>
+	</body>
+</html>
+<style>
+body {background-color: pink;}
+<style>
